@@ -1,3 +1,4 @@
+--model customers 
 with markup as (
     select *,
     first_value(customer_id)
